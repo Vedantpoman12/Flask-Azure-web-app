@@ -24,5 +24,5 @@ jobs:
       - name: Deploy
         uses: azure/webapps-deploy@v3
         with:
-          app-name: "VedantFlashAzure"
-          publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
+          app-name: "VedantFlaskAzure"
+          publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}  
